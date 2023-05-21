@@ -1,0 +1,15 @@
+To compile and run this program, you must first make sure that the MyClass.java file is located in a directory named myPackage relative to the location of the Main.java file. Then, compile both files using the javac command:
+
+css
+Copy code
+javac Main.java myPackage/MyClass.java
+Finally, run the program using the java command:
+
+css
+Copy code
+java Main
+This will output:
+
+vbnet
+Copy code
+Hello from MyClass in myPackage!
